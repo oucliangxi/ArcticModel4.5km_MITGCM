@@ -1,0 +1,24 @@
+# ***************
+# Open boundaries
+# ***************
+ &OBCS_PARM01
+ OB_Jnorth =   1680*1536,
+ OB_Ieast  =   1536*1680,
+ OB_Iwest  =   1536*1,
+#
+ useOBCSprescribe= .TRUE.,
+#
+ OBNsFile='OBNs_arctic_1680x1536_45Yannualcycle.stable',
+ OBNtFile='OBNt_arctic_1680x1536_45Yannualcycle.stable',
+ OBNuFile='OBNu_arctic_1680x1536_45Yannualcycle.bin',
+ OBNvFile='OBNv_arctic_1680x1536_45Yannualcycle.balance',
+ OBWsFile='OBWs_arctic_1680x1536_45Yannualcycle.stable',
+ OBWtFile='OBWt_arctic_1680x1536_45Yannualcycle.stable',
+ OBWuFile='OBWu_arctic_1680x1536_45Yannualcycle.bin',
+ OBWvFile='OBWv_arctic_1680x1536_45Yannualcycle.bin',
+ OBEsFile='OBEs_arctic_1680x1536_45Yannualcycle.stable',
+ OBEtFile='OBEt_arctic_1680x1536_45Yannualcycle.stable',
+ OBEuFile='OBEu_arctic_1680x1536_45Yannualcycle.bin',
+ OBEvFile='OBEv_arctic_1680x1536_45Yannualcycle.bin',
+#
+ &

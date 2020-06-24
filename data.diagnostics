@@ -1,0 +1,11 @@
+ &diagnostics_list
+ dumpatlast = .FALSE.,
+ filename(1) = 'diags2D',
+ frequency(1)  = 3600.,
+ fields(1:5,1)  = 'SIarea  ','SIheff  ','SIuice  ','SIvice  ','SIhsnow ',
+# filename(2) = 'diags3D',
+# frequency(2) = 2635200.,
+# fields(1:4,2) = 'THETA   ','SALTanom','UVELMASS','VVELMASS',
+ &
+ &DIAG_STATIS_PARMS
+ &

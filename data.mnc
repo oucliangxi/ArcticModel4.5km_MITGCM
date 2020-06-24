@@ -1,0 +1,32 @@
+# Example "data.mnc" file
+# Lines beginning "#" are comments
+ &MNC_01
+ snapshot_mnc      = .TRUE.,
+ timeave_mnc       = .TRUE.,
+ monitor_mnc       = .FALSE.,
+ autodiff_mnc 	   = .FALSE.,
+ pickup_write_mnc  = .FALSE.,
+ pickup_read_mnc   = .FALSE.,
+ mnc_filefreq      = 3600.,
+ writegrid_mnc     = .TRUE.,
+ &
+# Note: Some systems use & as the
+# namelist terminator. Other systems
+# use a / character (as shown here).
+
+# nc_use_outdir 	L 	 .FALSE. 	create a directory for output
+# mnc_outdir_str 	S 	'mnc_' 		output directory name
+# mnc_outdir_date 	L 	.FALSE. 	embed date in the outdir name
+# mnc_outdir_num 	L 	.TRUE. 		optional
+# pickup_write_mnc 	L 	.TRUE. 		use MNC to write pickup files
+# pickup_read_mnc 	L 	.TRUE. 		use MNC to read pickup files
+# mnc_use_indir 	L 	.FALSE. 	use a directory (path) for input
+# mnc_indir_str 	S 	'' 		input directory (or path) name
+# snapshot_mnc 		L 	.TRUE. 		write snapshot output w/MNC
+# monitor_mnc 		L 	.TRUE. 		write monitor output w/MNC
+# timeave_mnc 		L 	.TRUE. 		write timeave output w/MNC
+# autodiff_mnc 		L 	.TRUE. 		write autodiff output w/MNC
+# mnc_max_fsize 	R 	2.1e+09 	max allowable file size (<2GB)
+# mnc_filefreq 		R 	-1 		frequency of new file creation (seconds)
+# readgrid_mnc 		L 	.FALSE. 	read grid quantities using MNC
+# mnc_echo_gvtypes 	L 	.FALSE. 	list pre-defined ``types'' (debug)
